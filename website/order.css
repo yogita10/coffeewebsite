@@ -1,0 +1,46 @@
+#background{
+    position: fixed;
+    z-index: -99;
+    opacity: 0.5;
+    height: 100vh;
+    width: 100vw ;
+  }
+
+  h1{
+  
+    color:red;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    width: 80% ;
+    font-size: 40px;
+    font-family:serif,sans-serif,Arial,cursive,Helvetica;
+    text-shadow:  3px 3px #696969;
+    text-align: center;
+    font-weight: bolder;
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-bottom: 0%; 
+   
+  
+  }
+
+.closed{
+    display: none;
+}
+.open{
+    display: block;
+}
+
+button{
+        width:150px;
+          background-color: #00CCEE;
+          margin-left:15px;
+          font-size:100%;
+      }
+
+#menu{
+  color:black;    
+  padding:10px;
+  font-size:130%
+}
